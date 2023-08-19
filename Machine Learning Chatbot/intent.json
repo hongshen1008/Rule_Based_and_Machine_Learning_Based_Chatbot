@@ -1,0 +1,130 @@
+
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Bonjour", "hola", "yo", "greeting", "what's up", "sup"],
+     "responses": ["Hello", "Hi", "Hi there", "Hey"]
+    },
+	{"tag": "formalgreeting",
+     "patterns": ["Good Morning", "Good Afternoon", "Good Evening", "Good day"],
+     "responses": ["Good day!"]
+    },
+	{"tag": "smalltalk",
+     "patterns": ["How are you", "How are you doing", "you alright?", "Are you alright", "How do you feel?", "How is it going"],
+     "responses": ["I am fine, thanks for asking.", "I am doing good, thank you for asking."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "I appreciate it"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "chatbot",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "What is your name", "What should I call you", "Whats your name?"],
+     "responses": ["I.m Groovy, your bot assistant", "I'm Groovy, an Artificial Intelligent bot"]
+    },
+	{"tag": "username",
+    "patterns": ["What is my name", "whats my name?", "Who I am", "Tell me my name", "Do you remember me?", "Tell me my name"],
+    "responses": ["username"]
+    },
+	{"tag": "changename",
+    "patterns": ["I am", "My name is", "Call me", "name is", "Change my name to", "Change name to"],
+    "responses": ["Change name"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please", "What can you do", "You can do anything?"],
+    "responses": ["I can have a small talk, help to take order and answer some questions regarding the beverages!"]
+    },
+    {"tag": "menu",
+    "patterns": ["I would like to order", "Order please", "Can I have the menu", "Menu please", "Show me the menu", "Display menu", "menu", "order", "What coffee do you sell?", "What tea do you sell", "What do you have"],
+    "responses": ["Menu"]
+    },
+	{"tag": "decaf",
+    "patterns": ["Decaf coffee", "Do you sell decaf coffee?", "Do you have decaf coffee?", "What is decaf coffee", "I want decaf coffee", "one decaf coffee, please", "Can I have a decaf coffee?", "I would like decaf coffee"],
+    "responses": ["Decaf is short for decaffeinated coffee, it has at least 97% of caffeine removed. Unfortunately, we do not sell decaf coffee, sorry for any inconvenience."]
+    },
+    {"tag": "americano",
+    "patterns": ["Americano", "What is Americano", "Americano is what", "Can I know what is Americano", "Can I know Americano", "Ingredients of Americano"],
+    "responses": ["Americano also called as black coffee. It is simply just hot water and espresso. It will be served half espresso to half water."]
+    },
+	{"tag": "americano price",
+    "patterns": ["What is the price of Americano", "What is the price of a cup of Americano?", "What does Americano cost?", "How much is the a cup of Americano", "How much is one Americano", "How much is Americano"],
+    "responses": ["A cup of Americano is £1.50"]
+    },
+	{"tag": "cappuccino",
+    "patterns": ["Cappuccino", "What is Cappuccino", "Cappuccino is what", "Can I know what is Cappuccino", "Can I know Cappuccino", "Ingredients of Cappuccino"],
+    "responses": ["A cappuccino is the perfect balance of espresso, steamed milk and foam."]
+    },
+	{"tag": "latte",
+    "patterns": ["Latte", "What is Latte", "Latte is what", "Can I know what is Latte", "Can I know Latte", "Ingredients of Latte"],
+    "responses": ["A true latte will be made up of one or two shots of espresso, lots of steamed milk and a final, thin layer of frothed milk on top."]
+    },
+	{"tag": "espresso",
+    "patterns": ["Espresso", "What is Espresso", "Espresso is what", "Can I know what is Espresso", "Can I know Espresso", "Ingredients of Espresso"],
+    "responses": ["Espresso is a delicious concentrated form of coffee, served in shots and it is often the coffee base of many other beverages, such as cappuccino, latte, and americano."]
+    },
+	{"tag": "mocha",
+    "patterns": ["Mocha", "What is Mocha", "Mocha is what", "Can I know what is Mocha", "Can I know Mocha", "Ingredients of Mocha"],
+    "responses": ["Mocha is a shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream."]
+    },
+	{"tag": "macchiato",
+    "patterns": ["macchiato", "What is macchiato", "Macchiato is what", "Can I know what is macchiato", "Can I know macchiato", "Ingredients of macchiato"],
+    "responses": ["The macchiato is an espresso coffee drink, topped with a small amount of foamed or steamed milk to allow the taste of the espresso to still shine through."]
+    },
+	{"tag": "flat white",
+    "patterns": ["Flat White", "What is Flat White", "Flat White is what", "Can I know what is Flat White", "Can I know Flat White", "Ingredients of Flat White"],
+    "responses": ["A flat white is a blend of micro-foamed milk poured over a single or double shot of espresso."]
+    },
+	{"tag": "black tea",
+    "patterns": ["Black Tea", "What is Black Tea", "Black Tea is what", "Can I know what is Black Tea", "Can I know Black Tea", "Ingredients of Black Tea"],
+    "responses": ["Black Tea also known as Red Tea is a type of tea that is more oxidized than oolong, yellow, white and green teas. It has stronger in flavour compare to other teas."]
+    },
+	{"tag": "coffee bean",
+    "patterns": ["What coffee bean are you using?", "What type of coffee bean do you use", "The type of coffee bean that you are using is?", "Can I know what coffee bean are you using?", "What coffee bean used", "Whats the coffee bean used?"],
+    "responses": ["The coffee bean that we are using is Arabica.", "We are using Arabica here."]
+    },
+	{"tag": "cappuccino price",
+    "patterns": ["What is the price of Cappuccino", "What is the price of a cup of Cappuccino?", "What does Cappuccino cost?", "How much is the a cup of Cappuccino", "How much is one Cappuccino", "How much is Cappuccino"],
+    "responses": ["A cup of Cappuccino is £1.80"]
+    },
+	{"tag": "latte price",
+    "patterns": ["What is the price of Latte", "What is the price of a cup of Latte?", "What does Latte cost?", "How much is the a cup of Latte", "How much is one Latte", "How much is Latte"],
+    "responses": ["A cup of Latte is £1.80"]
+    },
+	{"tag": "espresso price",
+    "patterns": ["What is the price of Espresso", "What is the price of a cup of Espresso?", "What does Espresso cost?", "How much is the a cup of Espresso", "How much is one Espresso", "How much is Espresso"],
+    "responses": ["A cup of Espresso is £1.50"]
+    },
+	{"tag": "mocha price",
+    "patterns": ["What is the price of Mocha", "What is the price of a cup of Mocha?", "What does Mocha cost?", "How much is the a cup of Mocha", "How much is one Mocha", "How much is Mocha"],
+    "responses": ["A cup of Mocha is £2.10"]
+    },
+	{"tag": "flatwhite price",
+    "patterns": ["What is the price of Flat White", "What is the price of a cup of Flat White?", "What does Flat White cost?", "How much is the a cup of Flat White", "How much is one Flat White", "How much is Flat White"],
+    "responses": ["A cup of Flat White is £2.10"]
+    },
+	{"tag": "blacktea price",
+    "patterns": ["What is the price of Black Tea", "What is the price of a cup of Black Tea?", "What does Black Tea cost?", "How much is the a cup of Black Tea", "How much is one Black Tea", "How much is Black Tea"],
+    "responses": ["A cup of Black Tea is £1.50"]
+    },
+	{"tag": "macchiato price",
+    "patterns": ["What is the price of Macchiato", "What is the price of a cup of Macchiato?", "What does Macchiato cost?", "How much is the a cup of Macchiato", "How much is one Macchiato", "How much is Macchiato"],
+    "responses": ["A cup of Macchiato is £1.80"]
+    },
+	{"tag": "transaction",
+    "patterns": ["Can I have a cup of Mocha", "I would like to have one cappuccino", "a cup of americano please", "I want latte", "Please give me 3 espresso", "2 latte and 1 cappuccino please", "Give me two flat white and three black tea", "Can I have one americano", "Can I have four macchiato", "One latte please", "one espresso", "One latte", "1 americano", "5 cappuccino", "2 mocha", "1 flat white", "1 black tea", "1 macchiato", "3 mocha", "Can I have a black tea, two espresso, three cappuccino, and 5 mocha", "please give me 2 americano, 1 flat white, 3 mocha and 1 macchiato"],
+    "responses": ["transaction"]
+    },
+	{"tag": "TeaType",
+    "patterns": ["What are types of tea", "Tea types", "Are there difference in tea?", "What are different types of tea"],
+    "responses": ["There are many different types of tea; some have a cooling, slightly bitter, and astringent flavour, while others have vastly different profiles that include sweet, nutty, floral, or grassy notes."]
+    },
+  {
+    "tag": "recommendation",
+    "patterns": [ "Can I have your recommendation", "What is your recommendation", "recommendation", "What are your suggestions to coffee", "Any suggestions?", "What coffee you recommend", "Suggestions" ],
+    "responses": [ "It is highly depend on your taste of bitterness, sweetness and amount of milk. You can ask about the coffee or tea served in our menu to have an idea of their taste. However, the most popular coffee is cappuccino." ]
+  },
+   {
+    "tag": "location",
+    "patterns": [ "What is the location of your shop", "What is the location of your coffee house", "Where is your shop located?", "Where is your shop", "Where are you" ],
+    "responses": [ "Our shop is located at Nottingham, England." ]
+  }
+]
+}

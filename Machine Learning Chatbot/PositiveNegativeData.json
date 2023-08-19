@@ -1,0 +1,11 @@
+{"intents": [
+    {"tag": "positive",
+     "patterns": ["Good", "True", "Fantastic", "Very good", "Amazing", "Yes", "Yea", "yeaa", "Yesss", "Ya", "Yeah", "Hooray", "thats right", "Thats correct", "That is correct", "Great", "Cool", "Not bad", "Yes. It is correct", "It is true", "All correct", "Perfect", "I confirm my order", "Sure", "Well", "Well done", "perform quite well", "overall is good", "overall not bad", "performance not bad", "pro", "It performs good but can be improved further", "Informative and easy to use", "That is very helpful", "good job"],
+     "responses": ["positive"]
+    },
+    {"tag": "negative",
+     "patterns": ["No", "Not correct", "Not good", "That is not right", "Thats not right", "That's wrong", "Bad", "Terrible", "Frustrated", "It is wrong", "The quantity is incorrect", "It is incorrect", "There is a mistake", "There might be a mistake", "False", "Item is missing", "Items are missing", "Beverage is missing", "The order is wrong", "It aint good", "It isnt good", "not performing well", "I did not understand your response."],
+     "responses": ["negative"]
+    }
+]
+}
